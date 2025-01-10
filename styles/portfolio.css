@@ -19,6 +19,9 @@ nav{
    background-position: left bottom, right bottom;
 }
   /* shared style */
+  .secondary-background{
+    background-color: #FFF8F3;
+  }
   .btn-primary{
     background-color: #FD6E0A;  
     font-size: 20px;
@@ -29,6 +32,15 @@ nav{
     border: none;
 
   }
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
   .dark-2{
     color: #474747;
   }
@@ -51,6 +63,9 @@ nav ul{
   nav li a {
     text-decoration: none;
     font-size: 20px;
+  }
+  .text-center{
+    text-align: center;
   }
   /* banner styles */
   .banner{
@@ -78,4 +93,56 @@ nav ul{
   }
 .banner-pic{
     width: 580px;
+}
+/* main style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+about section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+/* about styles */
+.about{
+  border-radius: 30px;
+  padding: 131px 157px;
+  text-align: center;
+}
+.item-description{
+  font-weight: bold;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+/* skills sections styles */
+.skill-container{
+  display: flex;
+  gap: 20px;
+  
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume styles */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.experience-description, .experience-sub-title{
+  color: #757575;
+}
+.experience-sub-title{
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+.resume hr{
+  margin: 30px 5px;
+}
+.resume-download-button{
+  margin-top: 50px;
 }
