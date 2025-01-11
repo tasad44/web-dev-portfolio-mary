@@ -146,3 +146,26 @@ margin-bottom: 30px;
 .resume-download-button{
   margin-top: 50px;
 }
+/* footer style */
+footer{
+  display: flex;
+padding: 130px 230px;
+gap: 130px;
+}
+.footer-column{
+  width: 50%;
+}
+form input[type="text"], textarea
+{
+
+display: block;
+height: 36px;
+margin-bottom: 24px;
+border-radius: 5px;
+background-color: white;
+width: 100%;
+border: none;
+padding: 10px, 20px;
+
+}
+  
